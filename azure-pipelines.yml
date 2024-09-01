@@ -17,6 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: UiPathInstallPlatform@4
+  inputs:
+    cliVersion: 'WIN_23.10.8894.39673'
+    cliNupkgPath: 'C:\Users\akhileshk3\AppData\Local\Programs\UiPath\Studio\UiRobot.exe'
 - task: UiPathPack@4
   inputs:
     versionType: 'AutoVersion'
