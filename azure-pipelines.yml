@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: UiPathRunJob@4
   inputs:
-    orchestratorConnection: 'con_orchestrator'
+    orchestratorConnection: 'con_Orchestrator'
     processName: 'Azure_Test'
     folderName: 'Shared'
     user: 'C:\Users\akhileshk3'
