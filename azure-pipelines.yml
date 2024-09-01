@@ -20,7 +20,6 @@ steps:
 - task: UiPathInstallPlatform@4
   inputs:
     cliVersion: 'WIN_23.10.8894.39673'
-    cliNupkgPath: 'C:\Users\akhileshk3\AppData\Local\Programs\UiPath\Studio\Packages'
 - task: UiPathPack@4
   inputs:
     versionType: 'AutoVersion'
